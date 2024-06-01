@@ -1,9 +1,9 @@
 
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="p-3 bg-secondary d-flex justify-content-center">
-        <p className="fw-bolder text-white">&copy; Code with Shakshi</p>
+    <div className='py-3 bg-secondary d-flex justify-content-center'>
+        <p className='fw-bolder text-white'>&copy; Code With Yousaf</p>
     </div>
   )
 }

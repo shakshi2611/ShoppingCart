@@ -10,7 +10,7 @@ const Cart = () => {
         <div className="row">
             <div className="col-8">
                 {cart.map(p => (
-                    <CartProduct key={p.id} product={p}></CartProduct>
+                    <CartProduct product={p}></CartProduct>
                 ))}
             </div>
             <div className="col-4 ">

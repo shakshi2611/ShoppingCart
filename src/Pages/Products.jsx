@@ -6,10 +6,10 @@ const Products = () => {
     const [products, setProducts] = useState(Data.products)
   return (
     <div className="container mt-5">
-    <div className='row row-cols-1 row-cols-md-3 g-4'>
+    <div className='row row-cols-1 row-cols-md-5 g-4'>
         {
             products.map(p => (
-                <Product key={p.id} product = {p}/>
+                <Product product = {p}/>
             ))
         }
     </div>
